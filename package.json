@@ -1,0 +1,42 @@
+{
+    "name": "firebase-line-chat-test",
+    "version": "1.0.0",
+    "description": "firebase line chat test",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cn27529/firebase-line-chat-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cn27529/firebase-line-chat-test/issues"
+    },
+    "homepage": "https://github.com/cn27529/firebase-line-chat-test#readme",
+    "dependencies": {
+        "bluebird": "^3.5.0",
+        "body-parser": "^1.15.2",
+        "cookie-parser": "^1.4.3",
+        "cool-ascii-faces": "^1.3.4",
+        "debug": "~2.6.3",
+        "express": "^4.15.3",
+        "express-partials": "^0.3.0",
+        "firebase": "^4.4.0"
+    },
+    "devDependencies": {
+        "cross-env": "^3.1.3"
+    },
+    "engines": {
+        "node": ">= 6.9.1",
+        "npm": ">= 3.8.2"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
